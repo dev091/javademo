@@ -6,6 +6,6 @@ public static void {
 
  
    {
-    System.out.println("Hola amigo")
+    System.out.println("Hola amigo1")
 
 }
