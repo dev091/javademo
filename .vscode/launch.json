@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jaggedarray",
+            "request": "launch",
+            "mainClass": "Array.Jaggedarray",
+            "projectName": "coding_ab335265"
+        },
+        {
+            "type": "java",
             "name": "TwoDArray",
             "request": "launch",
             "mainClass": "Array.TwoDArray",
