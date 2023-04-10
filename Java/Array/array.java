@@ -6,7 +6,7 @@ public class array {
         System.out.println(a[3]);
 
         String b []= {"abhay","papa","nandani","somya"};
-        System.out.println(b[1]);
+        
         for (int i=0;i<=4;i++){
             System.out.println(b[i]);
         }
