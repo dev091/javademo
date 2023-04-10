@@ -7,5 +7,6 @@ public class TwoDArray {
                      {3,4,2,1},
                      {5,4,7,0}}; // row 2
         System.out.println(a[0][1]); // row - column
+        System.out.println("length of array is: "+a.length); 
     }
 }
