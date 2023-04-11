@@ -21,5 +21,9 @@ public class AnonymousArray {
 
         int a []= {22,34,45,64};
         System.out.println(a[a.length-1]); // to print the last value
+
+        for (int n:a){  // to print all values of array 
+            System.out.println(n);
+        }
     }
 }
