@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Updatearray",
+            "request": "launch",
+            "mainClass": "Array.Updatearray",
+            "projectName": "coding_ab335265"
+        },
+        {
+            "type": "java",
+            "name": "updatearray",
+            "request": "launch",
+            "mainClass": "Array.updatearray",
+            "projectName": "coding_ab335265"
+        },
+        {
+            "type": "java",
             "name": "AnonymousArray",
             "request": "launch",
             "mainClass": "Array.AnonymousArray",
