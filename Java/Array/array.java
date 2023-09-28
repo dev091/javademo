@@ -9,7 +9,7 @@ public class array {
         String b []= {"abhay","papa","nandani","somya"};
 
         
-        for (int i=0;i<=4;i++){
+        for (int i=0;i<b.length;i++){
             System.out.println(b[i]);
         }
     }
