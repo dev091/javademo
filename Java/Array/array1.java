@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.Arrays;
-
 public class array1 {
     public static void main(String[] args) {
         int[] rollno = {22, 78, 56, 37, 68};
