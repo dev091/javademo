@@ -15,19 +15,19 @@ public class SumTwoUsingMethod {
 
    
     static void sum() {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("enter a value:");
+             
+             int num1 = sc.nextInt();
 
-     System.out.print("enter a value:");
-     
-     int num1 = sc.nextInt();
+             System.out.print("enter value of b:");
 
-     System.out.print("enter value of b:");
+             int num2 = sc.nextInt();
 
-     int num2 = sc.nextInt();
+             int sum = num1 + num2 ;
 
-     int sum = num1 + num2 ;
-
-     System.out.println("the sum of a + b is =" + sum);
+             System.out.println("the sum of a + b is =" + sum);
+        }
 
 
     }
