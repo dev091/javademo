@@ -1,5 +1,7 @@
 package Array;
 
+
+
 class Calc {
     public int add(int num[]) // method
     {
