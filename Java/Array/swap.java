@@ -2,7 +2,7 @@ package Array; // This is a package declaration. It specifies that this class be
 
 import java.util.Arrays; // Import the Arrays class from the java.util package for array-related operations.
 
-public class swap { // Define a class named "swap." Class names in Java should start with an uppercase letter.
+public class Swap { // Define a class named "swap." Class names in Java should start with an uppercase letter.
     /**
      * @param args
      */
