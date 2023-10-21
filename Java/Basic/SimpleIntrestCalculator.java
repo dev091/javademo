@@ -8,17 +8,17 @@ public class SimpleIntrestCalculator {
    	 Scanner sc = new Scanner(System.in);
 
 	System.out.println("enter your principle");
-	int principle = sc.nextInt();
+	float principle = sc.nextFloat();
     
 	System.out.println("enter your rate %");
-	int rate = sc.nextInt();
+	float rate = sc.nextFloat();
 
 	System.out.println("enter your time");
-	int time = sc.nextInt();
+	float time = sc.nextFloat();
 
 	System.out.println("your simple interest is "+ (principle*rate*time/100));
 
-
+    sc.close();
 	}
 }
     

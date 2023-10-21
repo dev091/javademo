@@ -17,6 +17,8 @@ public class SumofTwoNumber {
 		
      // Adding parentheses to ensure addition is performed before string concatenation , otherwise it will take whole as string
 		System.out.println("sum of two numbers is "+( num_1+num_2));
+
+		sc.close();
 	}
 
 }
